@@ -1,20 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-// done
-// contract must verify price offer is not too old
-// may want to store is buy/sell on the contract
-// remove fractional share support
-// check that someone sent enough payment
-// server must sign/confirm the buy price
-// change acceptable tolerance value
-// functions available to authAddress
-
-
-// some notes...
-// order revert
-// blacklist
-// possibly mint reward token on any interaction and reduce mint rate over time?
-
 pragma solidity 0.7.3;
 
 import "./lib/SafeMath.sol";
